@@ -142,9 +142,6 @@ export function Products() {
                       className="object-contain brightness-0 invert"
                     />
                   </div>
-                  <p className="text-center text-white/70 font-mono text-sm" dir="ltr">
-                    {t("products.platform.version")}
-                  </p>
                 </div>
               </div>
             </div>
