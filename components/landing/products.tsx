@@ -150,46 +150,6 @@ export function Products() {
             </div>
           </div>
 
-          {/* Other Products */}
-          {products.slice(1).map((product, index) => (
-            <div
-              key={product.name}
-              className={`bg-white rounded-2xl p-8 border border-border hover:border-[#1877F2]/30 transition-all duration-500 hover:shadow-xl hover:shadow-[#1877F2]/10 hover:-translate-y-2 ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-8"
-              }`}
-              style={{ transitionDelay: `${(index + 1) * 0.2}s` }}
-            >
-              <span className={`inline-block bg-[#1877F2]/10 border border-[#1877F2]/20 text-[#1877F2] text-xs font-bold uppercase px-3 py-1 rounded-full mb-4 ${isRTL ? 'tracking-normal' : 'tracking-widest'}`}>
-                {product.badge}
-              </span>
-              <h3 className="text-2xl font-bold text-[#07223F] mb-3">
-                {product.name}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                {product.description}
-              </p>
-              <ul className="space-y-2 mb-6">
-                {product.features.map((feature) => (
-                  <li
-                    key={feature}
-                    className="flex items-center gap-2 text-sm text-muted-foreground"
-                  >
-                    <span className="w-1.5 h-1.5 bg-[#1877F2] rounded-full flex-shrink-0" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-              <Button
-                asChild
-                variant="outline"
-                className="border-[#07223F]/20 text-[#07223F] hover:bg-[#07223F] hover:text-white font-semibold rounded-xl"
-              >
-                <Link href="#contact">{t("products.learnMore")}</Link>
-              </Button>
-            </div>
-          ))}
         </div>
       </div>
     </section>
