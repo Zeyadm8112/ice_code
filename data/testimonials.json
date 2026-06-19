@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "en_initials": "AK",
+    "ar_initials": "أخ",
+    "avatarColor": "bg-[#1877F2]",
+    "en_quote": "ICE CODE transformed our operations. The platform they built handles millions of transactions daily with zero downtime. Exceptional work.",
+    "ar_quote": "ICE CODE حولت عملياتنا بالكامل. المنصة التي بنوها تتعامل مع ملايين المعاملات يومياً بدون أي توقف. عمل استثنائي.",
+    "en_author": "Ahmed Khalil",
+    "ar_author": "أحمد خليل",
+    "en_role": "CTO, PayFast Egypt",
+    "ar_role": "المدير التقني، PayFast Egypt"
+  },
+  {
+    "id": "2",
+    "en_initials": "SM",
+    "ar_initials": "سم",
+    "avatarColor": "bg-[#07223F]",
+    "en_quote": "The mobile app they developed launched in 3 months and got 50K downloads in the first week. The team's attention to detail is unmatched.",
+    "ar_quote": "التطبيق الذي طوروه أُطلق في 3 أشهر وحصل على 50 ألف تحميل في الأسبوع الأول. اهتمام الفريق بالتفاصيل لا مثيل له.",
+    "en_author": "Sara Mohamed",
+    "ar_author": "سارة محمد",
+    "en_role": "CEO, NutriTrack",
+    "ar_role": "المديرة التنفيذية، NutriTrack"
+  },
+  {
+    "id": "3",
+    "en_initials": "OR",
+    "ar_initials": "عر",
+    "avatarColor": "bg-[#00897B]",
+    "en_quote": "From discovery to launch, the team was professional, communicative, and delivered beyond expectations. Our logistics costs dropped 35%.",
+    "ar_quote": "من الاكتشاف إلى الإطلاق، كان الفريق محترفاً ومتواصلاً وقدم أكثر من التوقعات. انخفضت تكاليف اللوجستيات لدينا 35%.",
+    "en_author": "Omar Rashid",
+    "ar_author": "عمر رشيد",
+    "en_role": "Operations Director, SwiftLog",
+    "ar_role": "مدير العمليات، SwiftLog"
+  }
+]

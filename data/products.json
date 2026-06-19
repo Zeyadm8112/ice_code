@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1",
+    "icon": "Layers",
+    "featured": true,
+    "en_name": "ICE Suite",
+    "ar_name": "ICE Suite",
+    "en_badge": "End-to-End Services",
+    "ar_badge": "خدمات رقمية متكاملة من البداية إلى النهاية",
+    "en_description": "We take your business from idea to full digital reality—crafting your brand identity, building your technical foundation, and delivering custom software solutions that power both your internal and external operations.",
+    "ar_description": "نأخذ عملك من الفكرة إلى واقع رقمي متكامل—بدءًا من بناء الهوية التجارية، وتجهيز البنية التقنية، وصولًا إلى تطوير حلول برمجية مخصصة تدعم عملياتك الداخلية والخارجية.",
+    "en_features": [
+      "Digital presence & brand identity for your business",
+      "Software systems to manage your internal operations",
+      "Software solutions to manage your customers and sales",
+      "End-to-end digital transformation for modern businesses"
+    ],
+    "ar_features": [
+      "بناء الحضور الرقمي وهوية العلامة التجارية لعملك",
+      "أنظمة برمجية لإدارة عملياتك الداخلية",
+      "حلول برمجية لإدارة عملائك ومبيعاتك",
+      "تحول رقمي شامل من البداية إلى النهاية لعملك"
+    ],
+    "en_details": "",
+    "ar_details": "",
+    "video_url": ""
+  },
+  {
+    "id": "2",
+    "icon": "Truck",
+    "featured": false,
+    "en_name": "ICE Delivery",
+    "ar_name": "ICE Delivery",
+    "en_badge": "Mobile",
+    "ar_badge": "موبايل",
+    "en_description": "A full-featured last-mile delivery management system with live tracking, driver app, and merchant portal.",
+    "ar_description": "نظام إدارة توصيل متكامل مع تتبع مباشر وتطبيق للسائقين وبوابة للتجار.",
+    "en_features": [
+      "Live GPS tracking",
+      "Driver & merchant apps",
+      "Automated dispatching"
+    ],
+    "ar_features": [
+      "تتبع GPS مباشر",
+      "تطبيقات للسائقين والتجار",
+      "توزيع آلي"
+    ],
+    "en_details": "",
+    "ar_details": "",
+    "video_url": ""
+  },
+  {
+    "id": "3",
+    "icon": "Bot",
+    "featured": false,
+    "en_name": "ICE Assistant",
+    "ar_name": "ICE Assistant",
+    "en_badge": "AI Powered",
+    "ar_badge": "مدعوم بالذكاء الاصطناعي",
+    "en_description": "An Arabic-first AI assistant for businesses — customer support automation, lead qualification, and smart scheduling.",
+    "ar_description": "مساعد ذكاء اصطناعي بالعربية للأعمال — أتمتة دعم العملاء وتأهيل العملاء المحتملين والجدولة الذكية.",
+    "en_features": [
+      "Arabic NLP engine",
+      "Omnichannel support",
+      "CRM integration"
+    ],
+    "ar_features": [
+      "محرك NLP عربي",
+      "دعم متعدد القنوات",
+      "تكامل مع CRM"
+    ],
+    "en_details": "",
+    "ar_details": "",
+    "video_url": ""
+  }
+]

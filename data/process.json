@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "number": "01",
+    "icon": "Search",
+    "en_title": "Discovery",
+    "ar_title": "الاكتشاف",
+    "en_description": "We dive deep into your business goals, target audience, and technical requirements.",
+    "ar_description": "نغوص عميقاً في أهداف عملك والجمهور المستهدف والمتطلبات التقنية."
+  },
+  {
+    "id": "2",
+    "number": "02",
+    "icon": "PenTool",
+    "en_title": "Design",
+    "ar_title": "التصميم",
+    "en_description": "Creating intuitive user experiences and stunning visual designs.",
+    "ar_description": "إنشاء تجارب مستخدم بديهية وتصاميم بصرية مذهلة."
+  },
+  {
+    "id": "3",
+    "number": "03",
+    "icon": "Code2",
+    "en_title": "Development",
+    "ar_title": "التطوير",
+    "en_description": "Building robust, scalable solutions using cutting-edge technologies.",
+    "ar_description": "بناء حلول قوية وقابلة للتوسع باستخدام أحدث التقنيات."
+  },
+  {
+    "id": "4",
+    "number": "04",
+    "icon": "Rocket",
+    "en_title": "Launch & Support",
+    "ar_title": "الإطلاق والدعم",
+    "en_description": "Seamless deployment with ongoing maintenance and support.",
+    "ar_description": "نشر سلس مع صيانة ودعم مستمر."
+  }
+]

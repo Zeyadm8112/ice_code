@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Audiowide, JetBrains_Mono, Noto_Sans_Arabic } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { ClientLayout } from '@/components/client-layout'
+import { Toaster } from '@/components/ui/sonner'
 import './globals.css'
 
 const inter = Inter({ 
@@ -53,6 +54,7 @@ export default function RootLayout({
         <ClientLayout>
           {children}
         </ClientLayout>
+        <Toaster />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

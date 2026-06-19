@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "icon": "Globe",
+    "color": "#1877F2",
+    "en_title": "Web Development",
+    "ar_title": "تطوير الويب",
+    "en_description": "Custom web applications built with React, Next.js, and modern frameworks. Scalable, secure, and blazing fast.",
+    "ar_description": "تطبيقات ويب مخصصة مبنية بـ React و Next.js وأحدث الأطر. قابلة للتوسع وآمنة وسريعة للغاية."
+  },
+  {
+    "id": "2",
+    "icon": "Smartphone",
+    "color": "#4A6CA3",
+    "en_title": "Mobile Apps",
+    "ar_title": "تطبيقات الموبايل",
+    "en_description": "Native and cross-platform mobile applications for iOS and Android that users love.",
+    "ar_description": "تطبيقات موبايل أصلية ومتعددة المنصات لـ iOS و Android يحبها المستخدمون."
+  },
+  {
+    "id": "3",
+    "icon": "Palette",
+    "color": "#07223F",
+    "en_title": "UI/UX Design",
+    "ar_title": "تصميم UI/UX",
+    "en_description": "Human-centered design that converts. From wireframes to pixel-perfect interfaces.",
+    "ar_description": "تصميم يركز على المستخدم ويحقق النتائج. من الـ Wireframes إلى واجهات مثالية البكسل."
+  },
+  {
+    "id": "4",
+    "icon": "Cloud",
+    "color": "#1877F2",
+    "en_title": "Networking & Cloud Infrastructure",
+    "ar_title": "الشبكات والبنية التحتية السحابية",
+    "en_description": "Secure networking and cloud infrastructure solutions—from servers and deployments to networking setup, hosting, and scalable cloud environments built for your business.",
+    "ar_description": "حلول متكاملة للشبكات والبنية التحتية السحابية تشمل إعداد الخوادم والشبكات والاستضافة والنشر وبناء بيئات سحابية آمنة وقابلة للتوسع تناسب احتياجات عملك."
+  },
+  {
+    "id": "5",
+    "icon": "Brain",
+    "color": "#4A6CA3",
+    "en_title": "AI & Machine Learning",
+    "ar_title": "الذكاء الاصطناعي",
+    "en_description": "Custom AI solutions, chatbots, and predictive analytics to automate your business.",
+    "ar_description": "حلول ذكاء اصطناعي مخصصة وروبوتات دردشة وتحليلات تنبؤية لأتمتة عملك."
+  },
+  {
+    "id": "6",
+    "icon": "Sparkles",
+    "color": "#07223F",
+    "en_title": "Branding & Identity",
+    "ar_title": "الهوية البصرية",
+    "en_description": "Complete brand identity design including logos, guidelines, and visual systems that make you stand out.",
+    "ar_description": "تصميم هوية بصرية كاملة تشمل الشعارات والدلائل الإرشادية والأنظمة البصرية التي تميزك."
+  }
+]

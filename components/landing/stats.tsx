@@ -3,6 +3,14 @@
 import { useEffect, useRef, useState } from "react"
 import { useLanguage } from "@/lib/language-context"
 
+interface StatItem {
+  id: string
+  value: number
+  suffix: string
+  en_label: string
+  ar_label: string
+}
+
 function useCountUp(end: number, duration: number = 2000, start: boolean = false) {
   const [count, setCount] = useState(0)
 
@@ -24,17 +32,10 @@ function useCountUp(end: number, duration: number = 2000, start: boolean = false
   return count
 }
 
-export function Stats() {
+export function Stats({ data }: { data: StatItem[] }) {
   const [isVisible, setIsVisible] = useState(false)
   const sectionRef = useRef<HTMLDivElement>(null)
-  const { t, isRTL } = useLanguage()
-
-  const stats = [
-    { value: 150, suffix: "+", labelKey: "stats.projects" },
-    { value: 80, suffix: "+", labelKey: "stats.clients" },
-    { value: 5, suffix: "+", labelKey: "stats.experience" },
-    { value: 24, suffix: "/7", labelKey: "stats.support" },
-  ]
+  const { language, isRTL } = useLanguage()
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -56,19 +57,18 @@ export function Stats() {
 
   return (
     <section ref={sectionRef} className="relative bg-[#1877F2] py-16 overflow-hidden">
-      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 snow-pattern" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {stats.map((stat, index) => (
+          {data.map((stat, index) => (
             <StatItem
-              key={stat.labelKey}
+              key={stat.id}
               value={stat.value}
               suffix={stat.suffix}
-              label={t(stat.labelKey)}
+              label={language === "ar" ? stat.ar_label : stat.en_label}
               isVisible={isVisible}
               delay={index * 0.1}
               isRTL={isRTL}

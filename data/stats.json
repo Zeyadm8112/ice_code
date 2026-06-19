@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "value": 150,
+    "suffix": "+",
+    "en_label": "Projects Delivered",
+    "ar_label": "مشروع منجز"
+  },
+  {
+    "id": "2",
+    "value": 80,
+    "suffix": "+",
+    "en_label": "Happy Clients",
+    "ar_label": "عميل سعيد"
+  },
+  {
+    "id": "3",
+    "value": 5,
+    "suffix": "+",
+    "en_label": "Years Experience",
+    "ar_label": "سنوات خبرة"
+  },
+  {
+    "id": "4",
+    "value": 24,
+    "suffix": "/7",
+    "en_label": "Support",
+    "ar_label": "دعم متواصل"
+  }
+]
