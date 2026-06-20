@@ -27,19 +27,34 @@ const notoSansArabic = Noto_Sans_Arabic({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://icecodeco.com'),
   title: 'ICE CODE — Freeze Your Worries, Let Us Handle It',
   description: 'ICE CODE delivers cutting-edge software solutions — from mobile apps and web platforms to AI-powered products — built to scale with your ambitions.',
-  keywords: ['software development', 'mobile apps', 'web development', 'AI', 'branding', 'ICE CODE', 'Egypt'],
+  keywords: ['software development', 'mobile apps', 'web development', 'AI', 'branding', 'ICE CODE', 'Egypt', 'Suez'],
   authors: [{ name: 'ICE CODE' }],
   creator: 'ICE CODE',
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://icecodeco.com' },
   icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-cwL3OTiGeDu81kYXaDXZaeQ3UuoyxB.png',
-    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-cwL3OTiGeDu81kYXaDXZaeQ3UuoyxB.png',
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon-dark-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
   },
   openGraph: {
     title: 'ICE CODE — Freeze Your Worries, Let Us Handle It',
     description: 'Cutting-edge software solutions — mobile apps, web platforms, AI products, and branding services.',
     type: 'website',
+    url: 'https://icecodeco.com',
+    siteName: 'ICE CODE',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ICE CODE — Freeze Your Worries, Let Us Handle It',
+    description: 'Cutting-edge software solutions — mobile apps, web platforms, AI products, and branding services.',
+    images: ['/opengraph-image'],
   },
 }
 

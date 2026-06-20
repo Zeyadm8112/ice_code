@@ -1,5 +1,10 @@
+import type { Metadata } from 'next'
 import { AdminSidebar } from "@/components/admin/sidebar"
 import { cookies } from "next/headers"
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+}
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const cookieStore = await cookies()

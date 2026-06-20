@@ -23,8 +23,29 @@ export default function Home() {
   const contactData = getData("contact")
   const socialData = getData("social")
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: 'ICE CODE',
+    url: 'https://icecodeco.com',
+    email: 'contact@icecodeco.com',
+    telephone: '+201120506082',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Suez',
+      addressCountry: 'EG',
+    },
+    description: 'ICE CODE is a full-service software development agency delivering custom mobile apps, web platforms, AI solutions, and branding services.',
+    knowsAbout: ['Web Development', 'Mobile App Development', 'UI/UX Design', 'AI & Machine Learning', 'Cloud Infrastructure', 'Branding'],
+  }
+
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="min-h-screen bg-background">
       <Navbar />
       <Hero data={heroData} />
       <Stats data={statsData} />
@@ -37,5 +58,6 @@ export default function Home() {
       <Contact data={contactData} />
       <Footer socialLinks={socialData} />
     </main>
+    </>
   )
 }
