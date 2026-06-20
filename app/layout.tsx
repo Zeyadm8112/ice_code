@@ -35,10 +35,7 @@ export const metadata: Metadata = {
   creator: 'ICE CODE',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://icecodeco.com' },
-  icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-cwL3OTiGeDu81kYXaDXZaeQ3UuoyxB.png',
-    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-cwL3OTiGeDu81kYXaDXZaeQ3UuoyxB.png',
-  },
+
   openGraph: {
     title: 'ICE CODE — Freeze Your Worries, Let Us Handle It',
     description: 'Cutting-edge software solutions — mobile apps, web platforms, AI products, and branding services.',
