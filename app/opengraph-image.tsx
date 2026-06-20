@@ -5,7 +5,12 @@ export const alt = 'ICE CODE — Software Development Agency'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
-export default function OGImage() {
+const LOGO_URL = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-cwL3OTiGeDu81kYXaDXZaeQ3UuoyxB.png'
+
+export default async function OGImage() {
+  const logoData = await fetch(LOGO_URL).then((r) => r.arrayBuffer())
+  const logoBase64 = `data:image/png;base64,${Buffer.from(logoData).toString('base64')}`
+
   return new ImageResponse(
     (
       <div
@@ -32,14 +37,24 @@ export default function OGImage() {
           }}
         />
 
-        {/* Brand */}
-        <div style={{ display: 'flex', alignItems: 'center', marginBottom: 28 }}>
-          <span style={{ fontSize: 96, fontWeight: 800, color: '#ffffff', letterSpacing: '-3px' }}>
-            ICE
-          </span>
-          <span style={{ fontSize: 96, fontWeight: 800, color: '#38bdf8', letterSpacing: '-3px', marginLeft: 16 }}>
-            CODE
-          </span>
+        {/* Logo + Brand name row */}
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: 28, gap: 32 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={logoBase64}
+            width={120}
+            height={120}
+            style={{ borderRadius: 24 }}
+            alt=""
+          />
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <span style={{ fontSize: 96, fontWeight: 800, color: '#ffffff', letterSpacing: '-3px' }}>
+              ICE
+            </span>
+            <span style={{ fontSize: 96, fontWeight: 800, color: '#38bdf8', letterSpacing: '-3px', marginLeft: 12 }}>
+              CODE
+            </span>
+          </div>
         </div>
 
         {/* Divider */}
